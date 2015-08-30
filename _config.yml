@@ -11,6 +11,6 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 permalink: /:year/:month/:day/:title.html
-baseurl: cs371p-blog
+baseurl: "/cs371p-blog"
 # Build settings
 markdown: kramdown
