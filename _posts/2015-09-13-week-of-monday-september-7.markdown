@@ -4,7 +4,7 @@ title:  "Week of Monday September 7th"
 date:   2015-09-13 011:00:00
 categories: 
 ---
-The NFL season. I am very much looking forward to another season of Cowboys fans getting their dreams crushed by how disappointing their team is.
+The NFL season has started, and I am very much looking forward to another season of Cowboys fans getting their dreams crushed by how disappointing their team is.
 
 I should really start writing this on Fridays or at least Saturdays, because I'm having a hard time recalling the week. I'm pretty sure last week was Labor Day, so we only had two classes, and really only one because Wednesday's class was a talk from a UT graduate working at Bloomberg. It seems like most people's blogs this week were about that, so I'll talk about something else. I will mention, however, that it was a pretty interesting talk and it sounds like Bloomberg is a good place to work. The only thing that rubbed me the wrong way (just a little bit) was how heavily they use internal tools. For example I don't know how good their in house issue tracker is, but I have a hard time believing it's better than something like JIRA, or even the piece of garbage that is Rally. Maybe I'm wrong, but I've never heard someone say that their company used mostly tools built in-house and liked it. 
 
