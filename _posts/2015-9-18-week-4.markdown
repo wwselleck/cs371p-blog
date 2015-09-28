@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Week of Monday September 27th"
+date:   2015-09-06 023:00:00
+categories: 
+---
+Eagles' offense looked pretty bad once again but they won so...whatever I guess.
+
+I know that I don't know C++, but this project has shown me that I know C++ somehow even less than I thought I knew C++. This project took my partner and I around 20 hours to complete, and I'm imagining that would have been cut in at least half if either of us had any substantial experience with C++ beforehand. The problem itself was somewhat difficult (at least compared to the last project's problem), but transforming our solutions into C++ form was even harder given, you know, neither of us actually know C++. The single biggest area that tripped us up was returning objects in instance methods. Apparently in C++, objects are returned by value, or something like that. I say "something like that" because with this
+
+```
+Animal Animals::getAnimal(){
+	return my_animals_array[0];
+}
+
+Animal a = myanimals.getAnimal();
+```
+a will be a copy of whatever `getAnimal` returned while with this
+
+```
+Animal Animals::getAnimal(){
+	return my_animals_array[0];
+}
+
+Animal& a = myanimals.getAnimal();
+```
+
+a will be a reference to whatever `getAnimal` returns. So if I modify a, the actual Animal inside of `myanimals` will also get modified. So I guess (I keep using these uncertainty phrases like "apprently" and "I guess" because I'm still not sure what kind of black magic is going on here), `getAnimal` isn't returning a copy itself, but is returning something that then gets copied when it sees it's being assigned to a non-reference variable. Or something like that. Again, still not really sure what's going on here, but I think I understand enough to not screw up so much again on the next project.
+
+###McTip of the Week with fries
+I didn't really do too much personal programming this week, so my programming tip of the week is to take a step away from programming and realize that not every CS major is the same. I hear all the time about beginners feeling unwelcome in the UTCS community because of how hostile it can be. I think CS is a pretty unique major in that, for a lot of people, it's not just something you're doing to get a good job in the future, it's something you love doing and would probably be doing regardless of if it was a viable career or not. They always work on personal projects, do problems on HackerRank, Euler, etc., always trying to learn new things beyond schoolwork, and so on. I think that's great, I like to think I'm one of those people, but I feel like a lot of the time those people fail to realize that not every CS major is like that. Not everyone wants to make programming their life, and sometimes it seems the UTCS community makes those people feel like second class citizens. Just because you've already known how to use git for 2 years doesn't mean you have to be rude to someone who's never even heard of it and needs help. It's not every CS major's dream to compete in as many hackathons as possible in college. It's not every CS major's dream to have an amazing resume, know how to nail every single interview question imaginable, and go on to work for Google or Apple. People have different priorities, and just because your's don't match there's doesn't mean you should make them feel stupid for knowing less than you.
