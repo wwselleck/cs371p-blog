@@ -10,22 +10,26 @@ I know that I don't know C++, but this project has shown me that I know C++ some
 
 
 ```
+
 Animal Animals::getAnimal(){
 	return my_animals_array[0];
 }
 
 Animal a = myanimals.getAnimal();
+
 ```
 
 a will be a copy of whatever `getAnimal` returned while with this
 
 
 ```
+
 Animal Animals::getAnimal(){
 	return my_animals_array[0];
 }
 
 Animal& a = myanimals.getAnimal();
+
 ```
 
 a will be a reference to whatever `getAnimal` returns. So if I modify a, the actual Animal inside of `myanimals` will also get modified. So I guess (I keep using these uncertainty phrases like "apprently" and "I guess" because I'm still not sure what kind of black magic is going on here), `getAnimal` isn't returning a copy itself, but is returning something that then gets copied when it sees it's being assigned to a non-reference variable. Or something like that. Again, still not really sure what's going on here, but I think I understand enough to not screw up so much again on the next project.
