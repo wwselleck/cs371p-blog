@@ -8,7 +8,7 @@ The Eagles actually looked decent, but still lost to the Redskins.
 
 I can't really think of a whole lot that went on with this class this week. We don't have any projects going on, and there weren't any guest speakers. I guess I'll just give my thoughts on the class so far.
 
-##### The Good
+#### The Good
 
 I'm definitely learning a lot, despite already being fairly familiar with some of the course's major tools (Github, Travis CI, issue tracking, etc.) I knew essentially no C++ going into this semester and feel like I've become at least somewhat competent at it. At least competent for the kind of programming we've had to do in this course. The things we go over in lecture are also interesting, and I definitely learn a lot in them every time even if I'm already familiar with what we're going over that day. And Prof. Downing's teaching style of calling on people randomly definitely works, assuming its purpose is to make you pay attention like if your life depended on it.
 
