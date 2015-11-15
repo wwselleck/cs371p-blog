@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Week of Monday November 9th"
-date:   2015-11-15 17:00:00
+date:   2015-11-15 16:00:00
 categories: 
 ---
 The Eagles lost and the Longhorns lost and I'm sad.
